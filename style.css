@@ -1,0 +1,60 @@
+body {
+	/* background-color: */
+	color: hotpink;
+}
+
+h1 {
+	background-color: rgb(231, 178, 230);
+	color: rgb(96, 22, 59);
+}
+
+
+/* Sök på: "mdn border" för att komma direkt till artikeln om kantlinjer */
+.space {
+	margin: 1em;
+	padding: 2em;
+}
+
+.frame {
+	border: 1px solid black;
+	border-width: 2px;
+	border-style: solid;
+	border-color: black;
+	/* border är sammansatt av: border-width, border-style, border-color */
+}
+section.frame {
+	border-top-right-radius: 1em;
+}
+article.frame {
+	border-bottom: 5px dotted purple;
+	border-left-width: 10px;
+	border-right-color: gray;
+	border-radius: 1em;
+}
+
+
+.letter-container {
+	background-color: lightgray;
+	padding: 2em;
+}
+
+.letter {
+	background-color: white;
+	padding: 4em 6em 1.5em 6em;
+
+
+	p {
+		color: rgb(36, 36, 124);
+		font-size: 1.5em;
+		margin: 0.3em 0em;  /* top+bottom 0.4, right+left 0 */
+		border-bottom: 3px solid lightgray;
+		font-style: italic;
+	}
+}
+/* section {
+	display: inline;
+}
+article {
+	display: inline;
+} */
+/* .letter p {} */
